@@ -18,7 +18,7 @@ string Load_and_write(string name){
     cout << "Write pseudonym:" << endl;
     cin >> pseudonym;
 
-    name = firstname + " \"" + pseudonym + "\" " + surname;
+    name = firstname + " " + surname +" \"" + pseudonym + "\"";
 
     return name;
 
